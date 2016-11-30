@@ -32,6 +32,9 @@ header .list-menu {
     background: #ccc;
     text-decoration: none;
 }
+.menu-bar {
+    display: none;
+}
 /*-------------------------------------------------------------------------------- HERO --*/
 .hero {
     background: url(../img/home.jpg) no-repeat;
