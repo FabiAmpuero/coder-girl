@@ -1,0 +1,104 @@
+/*-------------------------------------------------------------------------------- GENERAL --*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+/*------------------------------------------------------------------------------ HEADER --*/
+header {
+    background: #f2f2f2;
+    padding: 13px 0;
+}
+header .list-menu {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+}
+.list-menu li {
+    display: inline-block;
+}
+.list-menu li a {
+    padding: 15px;
+    color: #000;
+}
+.list-menu li a:hover {
+    background: #ccc;
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------------------- HERO --*/
+.hero {
+    background: url(../img/home.jpg) no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+}
+.padre {
+    height: 500px;
+    width: 100%;
+    display: table;
+}
+.texto {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.texto h1 {
+    padding-top: 0;
+    color: #fff;
+}
+/*-------------------------------------------------------------------------- DOCUMENTAL --*/
+.documental {
+    margin: 80px 0 40px 0;
+}
+.documental h2 {
+    text-align: center;
+    padding: 30px 0;
+}
+/*--------------------------------------------------------------------------- HACKATHON --*/
+.hackathon {
+    background: yellow;
+    padding: 40px 0;
+}
+/*---------------------------------------------------------------------------- CONTACTO --*/
+.contacto {
+    margin: 80px 0 50px 0;
+}
+.contacto h3 {
+    padding: 0 0 15px 10px;
+    text-align: left;
+}
+.contacto p{
+    margin: 0;
+    padding: 0;
+}
+.contacto form {
+    margin-top: 20px;
+}
+.contacto form textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+/*------------------------------------------------------------------------------ FOOTER --*/
+footer {
+    background: #4697bc;
+    padding: 20px 0 30px 0;
+}
+footer small {
+    color: #fff;
+}
+.yellow {
+    color: yellow;
+    font-size: 12px;
+}
+
+
+
