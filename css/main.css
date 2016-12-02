@@ -11,24 +11,53 @@ h3 {
     text-align: center;
     padding: 20px 0;
 }
+/*------------------------------------------------------------------------------ MENU --*/
+#main-navigation {
+    margin-top: 8px;
+    z-index: 1;
+	position: absolute;
+	right: 10px;
+}
+#main-navigation ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.65);
+    padding: 10px;
+    border-radius: 5px;
+}
+#main-navigation ul li {
+    color: #fff;
+}
+#main-navigation ul li:hover {
+    background: #fff;
+    color: #a3a3a3;
+    text-decoration: none;
+    border-radius: 3px;
+}
+#main-navigation ul li a:hover {
+    text-decoration: none;
+}
+#main-navigation ul li a {
+    padding: 5px;
+    font-size: 20px;
+}
 /*------------------------------------------------------------------------------ HEADER --*/
 header {
     background: #f2f2f2;
     padding: 13px 0;
 }
-header .list-menu {
+header .desktop-menu {
     list-style: none;
     text-align: right;
     margin: 0;
 }
-.list-menu li {
+.desktop-menu li {
     display: inline-block;
 }
-.list-menu li a {
-    padding: 15px;
+.desktop-menu li a {
+    padding: 17px;
     color: #000;
 }
-.list-menu li a:hover {
+.desktop-menu li a:hover {
     background: #ccc;
     text-decoration: none;
 }
@@ -42,6 +71,21 @@ header .list-menu {
     background-size: cover;
     background-position: top;
     height: 500px;
+}
+.logo {
+    vertical-align: middle;
+    font-size: 16px;
+}
+header .icon-menu {
+    color: #a3a3a3;
+    font-size: 25px;
+    border: 1px solid #a3a3a3;
+    padding: 7px;
+    border-radius: 3px;
+}
+header .icon-menu:hover {
+    color: #f2f2f2;
+    background: #a3a3a3;
 }
 .padre {
     height: 500px;
@@ -102,6 +146,3 @@ footer small {
     color: yellow;
     font-size: 12px;
 }
-
-
-
